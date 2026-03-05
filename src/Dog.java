@@ -7,13 +7,13 @@ public class Dog extends Animal {
         this.breed = breed;
     }
 
+    public void fetch() {
+        IO.println("*brings stick*");
+    }
+
     @Override
     public void makeSound() {
         IO.println("Woof woof!");
-    }
-
-    public void fetch() {
-        IO.println("*brings stick*");
     }
 
     @Override
